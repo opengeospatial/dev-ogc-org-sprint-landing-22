@@ -343,15 +343,16 @@ html(lang='en')
                                     #collapse-ten.accordion-collapse.collapse(aria-labelledby='ten' data-bs-parent='#accordion3')
                                         .accordion-body
                                             p Everyone is free to attend this code sprint. However, registration is mandatory and in-person participants should wait for confirmation of registration before arranging their travel.
-                                //- .accordion-item
-                                //-     h2#eleven.accordion-header
-                                //-         button.accordion-button.collapsed(type='button' data-bs-toggle='collapse' data-bs-target='#collapse-eleven' aria-expanded='false' aria-controls='collapse-eleven')
-                                //-             | When is registration?
-                                //-     #collapse-eleven.accordion-collapse.collapse(aria-labelledby='eleven' data-bs-parent='#accordion3')
-                                //-         .accordion-body
-                                //-             p Registration is open now. Registration for in-person participation closes at 05:00 PM EDT on May 10th. Registration for remote participation will remain open throughout the code sprint. Follow this
-                                //-                 a(href=`${registration_link}`) link
-                                //-                 | to register!
+                                .accordion-item
+                                    h2#eleven.accordion-header
+                                        button.accordion-button.collapsed(type='button' data-bs-toggle='collapse' data-bs-target='#collapse-eleven' aria-expanded='false' aria-controls='collapse-eleven')
+                                            | When is registration?
+                                    #collapse-eleven.accordion-collapse.collapse(aria-labelledby='eleven' data-bs-parent='#accordion3')
+                                        .accordion-body
+                                            p Registration is open now. Registration for in-person participation closes at 05:00 PM GMT on October 25th. Registration for remote participation will remain open throughout the code sprint. 
+                                            //- | Follow this
+                                            //-     a(href=`${registration_link}`) link
+                                            //-     | to register!
                                 .accordion-item
                                     h2#eleven-1.accordion-header
                                         button.accordion-button.collapsed(type='button' data-bs-toggle='collapse' data-bs-target='#collapse-eleven-1' aria-expanded='false' aria-controls='collapse-eleven')
