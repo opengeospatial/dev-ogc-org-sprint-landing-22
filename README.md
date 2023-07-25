@@ -10,4 +10,4 @@ Publish to GitHub Pages with:
 
 Available at:
 
-`https://developer.ogc.org/sprints/21/`
+`https://developer.ogc.org/sprints/22/`
